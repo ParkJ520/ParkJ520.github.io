@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "ParkJ520"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "이것저것" # site tagline that appears below site title in masthead
 name                     : "ParkJ520"
-description              : "기록용 블로그"
+description              : "이것저것 기록용 블로그"
 url                      : "https://ParkJ520.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ParkJ520/ParkJ520.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "ParkJ520"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "기록용 블로그 입니다."
+  bio              : "이것저것 기록 합니다 :D"
   location         : "Republic of Korea"
   email            :
   links:
@@ -290,4 +290,14 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true
+      related: true 
+  
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      
+      
