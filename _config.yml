@@ -291,9 +291,6 @@ defaults:
       comments: # true
       share: true
       show_date: true
-    header:
-      image: /assets/images/rain-unsplash.jpg
-      caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   
   #_pages
   - scope:
