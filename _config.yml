@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "이것저것"
 title_separator          : "-"
-subtitle                 : "this and that"# site tagline that appears below site title in masthead
+subtitle                 : "this and that" # site tagline that appears below site title in masthead
 name                     : "ParkJ520"
 description              : "이것저것 기록용 블로그"
 url                      : "https://ParkJ520.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
