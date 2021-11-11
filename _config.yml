@@ -127,12 +127,6 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-#Site Header
-header:
-  image: /assets/images/rain-unsplash.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-
-
 # Site Footer
 footer:
   links:
