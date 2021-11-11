@@ -6,6 +6,8 @@ main:
     url: /tags/
   - title: "Search"
     url: /search/
+  sidebar:
+    nav: "docs"
 
 docs:
   - title: "대목차"
