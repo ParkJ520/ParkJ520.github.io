@@ -25,7 +25,7 @@ url                      : "https://ParkJ520.github.io" # the base hostname & pr
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ParkJ520/ParkJ520.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/umbrella_front_gradient_icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -290,7 +290,8 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true 
+      related: true
+      show date: true
   
   #_pages
   - scope:
@@ -300,4 +301,4 @@ defaults:
       layout: single
       author_profile: true
       
-      
+date_format: :%Y-%m-%d %a"       
