@@ -301,4 +301,4 @@ defaults:
       layout: single
       author_profile: true
       
-date_format: :%Y-%m-%d %a"       
+date_format: "%Y-%m-%d %a"       
