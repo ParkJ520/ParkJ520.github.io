@@ -20,7 +20,7 @@ title                    : "이것저것"
 title_separator          : "-"
 subtitle                 : "this and that" # site tagline that appears below site title in masthead
 name                     : "ParkJ520"
-description              : "이것저것 기록용 블로그"
+description              : #"이것저것 기록용 블로그"
 url                      : "https://ParkJ520.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ParkJ520/ParkJ520.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
