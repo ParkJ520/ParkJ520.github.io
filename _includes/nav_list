@@ -2,7 +2,7 @@
 
 {% assign sum = site.posts | size %}
 
-<li style="list-style:none;">📝 전체 글 갯수({{sum}})</il>
+<li style="list-style:none;">📝 전체 글( {{sum}} )</il>
 
   <nav class="nav__list">
     {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
