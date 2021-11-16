@@ -127,6 +127,10 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+#Side bar
+sidebar:
+  nav: "docs"
+
 # Site Footer
 footer:
   links:
@@ -291,6 +295,8 @@ defaults:
       comments: # true
       share: true
       show_date: true
+      sidebar:
+        nav: "docs"
 
   #_pages
   - scope:
@@ -299,8 +305,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-sidebar:
-    nav: "docs"
+      sidebar:
+        nav: "docs"
 
 date_format: "%Y-%m-%d %a"       
