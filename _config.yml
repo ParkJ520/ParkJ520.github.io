@@ -291,11 +291,7 @@ defaults:
       comments: # true
       share: true
       show_date: true
-      sidebar:
-        nav: "docs"
-      
 
-  
   #_pages
   - scope:
       path: "_pages"
