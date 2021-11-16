@@ -12,10 +12,6 @@ docs:
     children:
       - title: "책"
         url: /books/
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
 
 
   # - title: "About"
