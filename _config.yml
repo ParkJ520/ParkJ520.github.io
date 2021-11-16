@@ -293,6 +293,8 @@ defaults:
       show_date: true
       sidebar:
         nav: "docs"
+      
+
   
   #_pages
   - scope:
