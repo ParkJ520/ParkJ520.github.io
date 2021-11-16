@@ -6,8 +6,6 @@ main:
     url: /tags/
   - title: <i class="fas fa-search"></i>
     url: /search/
-  sidebar:
-    nav: "docs"
 
 docs:
   - title: "목차"
