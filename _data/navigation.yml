@@ -10,6 +10,8 @@ main:
 docs:
   - title: "목차"
     children:
+      - title: "책"
+        url: /books/
       - title: "Category"
         url: /categories/
       - title: "Tag"
