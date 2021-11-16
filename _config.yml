@@ -29,8 +29,6 @@ logo                     : "/assets/images/umbrella.png" # path of logo image to
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-sidebar:
-    nav: "docs"
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -301,5 +299,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
+
+sidebar:
+    nav: "docs"
+
 date_format: "%Y-%m-%d %a"       
