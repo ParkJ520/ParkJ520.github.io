@@ -296,6 +296,7 @@ defaults:
       show_date: true
       sidebar:
         nav: "docs"
+      sidebar_main: true
 
   #_pages
   - scope:
