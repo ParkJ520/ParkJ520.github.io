@@ -8,10 +8,18 @@ main:
     url: /search/
 
 docs:
-  - title: "목차"
+  - title: "이것저것"
     children:
-      - title: "책"
+      - title: "책리뷰"
         url: /books/
+      - title: "IT개념"
+        url: /itconcept/
+        - title: "전시회"
+        url: /exhibitions/
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
 
 
   # - title: "About"
