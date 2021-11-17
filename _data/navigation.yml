@@ -11,13 +11,13 @@ docs:
   - title: "이것저것"
     children:
       - title: "책리뷰"
-        url: /books/
+        url: /categories/books/
       - title: "IT개념"
-        url: /itconcept/
+        url: /categories/itconcept/
       - title: "전시회"
-        url: /exhibitions/
+        url: /categories/exhibitions/
       - title: "etc"
-        url: /etcs/
+        url: /categories/etcs/
 
 
   # - title: "About"
