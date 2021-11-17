@@ -6,5 +6,5 @@ permalink: categories/books
 
 
 
-{% assign posts = site.categories['책리뷰'] %}
+{% assign posts = site.categories.books %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
