@@ -14,7 +14,7 @@ docs:
         url: /books/
       - title: "IT개념"
         url: /itconcept/
-        - title: "전시회"
+      - title: "전시회"
         url: /exhibitions/
       - title: "Category"
         url: /categories/
