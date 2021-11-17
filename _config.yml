@@ -294,7 +294,8 @@ defaults:
       comments: # true
       share: true
       show_date: true
-      sidebar_main: true
+      sidebar:
+        nav: "docs"
 
 
   #_pages
