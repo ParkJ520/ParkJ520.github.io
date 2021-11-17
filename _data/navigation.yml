@@ -16,6 +16,8 @@ docs:
         url: /itconcept/
       - title: "전시회"
         url: /exhibitions/
+      - title: "etc"
+        url: /etcs/
 
 
   # - title: "About"
