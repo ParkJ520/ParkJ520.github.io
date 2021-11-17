@@ -297,6 +297,7 @@ defaults:
       sidebar:
         nav: "docs"
       sidebar_main: true
+      
 
   #_pages
   - scope:
