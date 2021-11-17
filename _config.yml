@@ -111,6 +111,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:wjddn407@gmail.com"
+  sidebar:
+    nav: "docs"
+    
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
