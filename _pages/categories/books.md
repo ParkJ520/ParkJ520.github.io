@@ -1,9 +1,8 @@
 ---
 title: "책리뷰"
 layout: archive
-permalink: categories/books
+permalink: /categories/books/
 author_profile: true
-sidebar_main: true
 ---
 
 
