@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Book"
-categories: "책리뷰"
+categories: books
 ---
 
 # Book
