@@ -29,7 +29,6 @@ logo                     : "/assets/images/umbrella.png" # path of logo image to
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-author_profile: true
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -128,9 +127,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
-sidebar:
-  nav: "docs"
 
 # Site Footer
 footer:
@@ -285,6 +281,13 @@ compress_html:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: home
+    values:
+      sidebar:
+        nav: "docs"
+
   #_posts
   - scope:
       path: ""
