@@ -1,9 +1,8 @@
 ---
-title: "책리뷰"
+title: "books"
 layout: archive
 permalink: categories/books
 ---
-
 
 
 {% assign posts = site.categories.books %}
