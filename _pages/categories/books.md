@@ -1,7 +1,7 @@
 ---
-title: "books"
+title: "book"
 layout: archive
-permalink: categories/books
+permalink: /categories/books
 ---
 
 
