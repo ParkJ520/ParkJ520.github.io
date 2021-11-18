@@ -283,7 +283,6 @@ compress_html:
 defaults:
   - scope:
       path: ""
-      type: /home.html
     values:
       sidebar:
         nav: "docs"
