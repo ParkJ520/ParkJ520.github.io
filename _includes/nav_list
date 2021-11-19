@@ -21,7 +21,7 @@
         <ul>
           {% for child in nav.children %}
           <li><a href="{{ child.url | relative_url }}" {% if child.url == page.url %} class="active"
-              {% endif %}>{{ child.title }}</a></li>
+              {% endif %}>{{ child.title }} ({{ child.size }})</a></li>
           {% endfor %}
         </ul>
         {% endif %}
