@@ -284,8 +284,7 @@ defaults:
   - scope:
       path: ""
     values:
-      sidebar:
-        nav: "docs"
+      sidebar_main: true
 
   #_posts
   - scope:
