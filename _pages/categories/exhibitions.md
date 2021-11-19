@@ -3,6 +3,7 @@ title: "전시회"
 layout: archive
 permalink: /categories/exhibitions/
 author_profile: true
+sidebar_main: true
 ---
 
 

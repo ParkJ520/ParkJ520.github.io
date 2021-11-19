@@ -3,6 +3,7 @@ title: "etc"
 layout: archive
 permalink: /categories/etcs/
 author_profile: true
+sidebar_main: true
 ---
 
 
