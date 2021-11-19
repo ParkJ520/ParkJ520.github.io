@@ -18,14 +18,43 @@
         {% endif %}
 
         {% if nav.children != null %}
+      <li>
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">이것저것</span>
+        <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
         <ul>
-          {% for child in nav.children %}
-          <li><a href="{{ child.url | relative_url }}" {% if child.url == page.url %} class="active"
-              {% endif %}>{{ child.title }} ({{ child.size }})</a></li>
+          <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+          <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
+          {% for category in site.categories %}
+          {% if category[0] == "books" %}
+          <li><a href="/categories/books" class="">책리뷰 ({{category[1].size}})</a></li>
+          {% endif %}
           {% endfor %}
         </ul>
-        {% endif %}
+        <ul>
+          {% for category in site.categories %}
+          {% if category[0] == "itconcept" %}
+          <li><a href="/categories/itconcept" class="">IT개념 ({{category[1].size}})</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <ul>
+          {% for category in site.categories %}
+          {% if category[0] == "exhibitions" %}
+          <li><a href="/categories/exhibitions" class="">전시회 ({{category[1].size}})</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <ul>
+          {% for category in site.categories %}
+          {% if category[0] == "etcs" %}
+          <li><a href="/categories/etcs" class="">etc ({{category[1].size}})</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
       </li>
-      {% endfor %}
-    </ul>
-  </nav>
+      {% endif %}
+</li>
+{% endfor %}
+</ul>
+</nav>
