@@ -298,8 +298,7 @@ defaults:
       comments: # true
       share: true
       show_date: true
-      sidebar:
-        nav: "docs"
+
 
 
   #_pages
@@ -309,7 +308,5 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar:
-        nav: "docs"
 
 date_format: "%Y-%m-%d %a"       
