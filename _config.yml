@@ -28,7 +28,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : "/assets/images/umbrella.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 200 #read_time :true 일때, 분당 읽는 속도 계산용 숫자
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -281,6 +281,7 @@ compress_html:
 
 # Defaults
 defaults:
+ #전체대상(type 없음)
   - scope:
       path: ""
     values:
@@ -298,8 +299,6 @@ defaults:
       comments: # true
       share: true
       show_date: true
-
-
 
   #_pages
   - scope:
